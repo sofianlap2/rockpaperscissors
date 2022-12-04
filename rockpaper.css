@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+#opponent-choice, #your-choice {
+    width: 230px;
+    height: 230px;
+    border: 1px solid black;
+}
+
+#choices {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#choices img {
+    width: 100px;
+    height: 100px;
+}
